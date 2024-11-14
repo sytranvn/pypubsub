@@ -1,0 +1,19 @@
+[project]
+name = "pypubsub"
+version = "0.0.1"
+description = "Python Pubsub"
+authors = [
+    {name = "Sy Tran Dung", email = "sytrancsvn@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
